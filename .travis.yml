@@ -1,0 +1,3 @@
+language: csharp
+before_install: cd Source-Checker
+solution: Source-Checker.sln
