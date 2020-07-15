@@ -12,7 +12,7 @@ namespace Source_Checker
     {
 
         // Current version of the program
-        string version = "v1.0.0";
+        string version = "v1.0.1";
 
         // Dark & light mode support
         string mode = "light";
@@ -68,8 +68,8 @@ namespace Source_Checker
         {
             // Open a dialog where you can choose the folder you want to be checked
             FolderBrowserDialog folderBrowser = new FolderBrowserDialog();
-            // Already puts as default path the path where the executable file is
-            folderBrowser.SelectedPath = Directory.GetCurrentDirectory();
+            // Puts as default path the desktop
+            folderBrowser.SelectedPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             DialogResult res = folderBrowser.ShowDialog();
             if (res == DialogResult.OK && !string.IsNullOrEmpty(folderBrowser.SelectedPath))
             {
