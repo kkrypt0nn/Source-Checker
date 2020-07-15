@@ -3,7 +3,7 @@
 </p>
 
 # Source Checker
-[![Build Status](https://travis-ci.org/kkrypt0nn/Source-Checker.svg?branch=master)](https://travis-ci.org/kkrypt0nn/Source-Checker) [![Program Versions](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/kkrypt0nn/Source-Checker) 
+[![Program Version](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/kkrypt0nn/Source-Checker) 
 
 Source Checker is a program coded in C# to check if a source code might be infected. You can use this checker for any projects, but it was mainly coded for checking <b>Minecraft Cheating Clients source code</b>.
 
@@ -20,6 +20,9 @@ To install the program, go to the [release page](https://github.com/kkrypt0nn/So
 If you don't trust the `exe` file you can always download the entire repository and build the program on your own.
 
 ## Changelogs
+### Version 1.0.1:
+#### Edited Features:
+- The default folder path when seleting folder is now the Desktop.
 ### Version 1.0.0:
 The program is working and ready to be used.
 
