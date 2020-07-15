@@ -20,6 +20,9 @@ To install the program, go to the [release page](https://github.com/kkrypt0nn/So
 If you don't trust the `exe` file you can always download the entire repository and build the program on your own.
 
 ## Changelogs
+### Version 1.1.0:
+#### Edited Features:
+- The icon of the `exe` file is now customized
 ### Version 1.0.1:
 #### Edited Features:
 - The default folder path when selecting folder is now the Desktop.
