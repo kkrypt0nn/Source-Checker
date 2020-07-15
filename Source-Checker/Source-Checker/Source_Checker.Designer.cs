@@ -50,8 +50,7 @@
             this.Label_Title.AutoSize = true;
             this.Label_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Label_Title.Location = new System.Drawing.Point(18, 14);
-            this.Label_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Title.Location = new System.Drawing.Point(12, 9);
             this.Label_Title.Name = "Label_Title";
             this.Label_Title.Size = new System.Drawing.Size(893, 132);
             this.Label_Title.TabIndex = 0;
@@ -65,10 +64,9 @@
             this.Link_GitHub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.Link_GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.Link_GitHub.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Link_GitHub.Location = new System.Drawing.Point(18, 1406);
-            this.Link_GitHub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Link_GitHub.Location = new System.Drawing.Point(12, 900);
             this.Link_GitHub.Name = "Link_GitHub";
-            this.Link_GitHub.Size = new System.Drawing.Size(419, 26);
+            this.Link_GitHub.Size = new System.Drawing.Size(275, 17);
             this.Link_GitHub.TabIndex = 2;
             this.Link_GitHub.TabStop = true;
             this.Link_GitHub.Text = "Copyright © 2020-2020 - Made by Krypton";
@@ -77,10 +75,9 @@
             // Btn_ChooseFolder
             // 
             this.Btn_ChooseFolder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Btn_ChooseFolder.Location = new System.Drawing.Point(458, 232);
-            this.Btn_ChooseFolder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_ChooseFolder.Location = new System.Drawing.Point(305, 148);
             this.Btn_ChooseFolder.Name = "Btn_ChooseFolder";
-            this.Btn_ChooseFolder.Size = new System.Drawing.Size(182, 61);
+            this.Btn_ChooseFolder.Size = new System.Drawing.Size(121, 39);
             this.Btn_ChooseFolder.TabIndex = 3;
             this.Btn_ChooseFolder.Text = "Choose Folder";
             this.Btn_ChooseFolder.UseVisualStyleBackColor = true;
@@ -92,10 +89,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.TxtBox_Folder.Enabled = false;
             this.TxtBox_Folder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.TxtBox_Folder.Location = new System.Drawing.Point(51, 247);
-            this.TxtBox_Folder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBox_Folder.Location = new System.Drawing.Point(34, 158);
             this.TxtBox_Folder.Name = "TxtBox_Folder";
-            this.TxtBox_Folder.Size = new System.Drawing.Size(396, 31);
+            this.TxtBox_Folder.Size = new System.Drawing.Size(265, 22);
             this.TxtBox_Folder.TabIndex = 6;
             this.TxtBox_Folder.Text = "No folder selected";
             // 
@@ -106,11 +102,10 @@
             this.List_FilesFound.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.List_FilesFound.FormattingEnabled = true;
             this.List_FilesFound.HorizontalScrollbar = true;
-            this.List_FilesFound.ItemHeight = 25;
-            this.List_FilesFound.Location = new System.Drawing.Point(51, 341);
-            this.List_FilesFound.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.List_FilesFound.ItemHeight = 16;
+            this.List_FilesFound.Location = new System.Drawing.Point(34, 218);
             this.List_FilesFound.Name = "List_FilesFound";
-            this.List_FilesFound.Size = new System.Drawing.Size(586, 954);
+            this.List_FilesFound.Size = new System.Drawing.Size(392, 612);
             this.List_FilesFound.TabIndex = 7;
             // 
             // Btn_RemoveSelected
@@ -118,10 +113,9 @@
             this.Btn_RemoveSelected.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Btn_RemoveSelected.Enabled = false;
             this.Btn_RemoveSelected.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.Btn_RemoveSelected.Location = new System.Drawing.Point(51, 1306);
-            this.Btn_RemoveSelected.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_RemoveSelected.Location = new System.Drawing.Point(34, 836);
             this.Btn_RemoveSelected.Name = "Btn_RemoveSelected";
-            this.Btn_RemoveSelected.Size = new System.Drawing.Size(285, 72);
+            this.Btn_RemoveSelected.Size = new System.Drawing.Size(190, 46);
             this.Btn_RemoveSelected.TabIndex = 8;
             this.Btn_RemoveSelected.Text = "Remove Selected File";
             this.Btn_RemoveSelected.UseVisualStyleBackColor = true;
@@ -132,10 +126,9 @@
             this.Btn_ScanFiles.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.Btn_ScanFiles.Enabled = false;
             this.Btn_ScanFiles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.Btn_ScanFiles.Location = new System.Drawing.Point(705, 714);
-            this.Btn_ScanFiles.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_ScanFiles.Location = new System.Drawing.Point(470, 457);
             this.Btn_ScanFiles.Name = "Btn_ScanFiles";
-            this.Btn_ScanFiles.Size = new System.Drawing.Size(182, 72);
+            this.Btn_ScanFiles.Size = new System.Drawing.Size(121, 46);
             this.Btn_ScanFiles.TabIndex = 9;
             this.Btn_ScanFiles.Text = "Scan Files >>";
             this.Btn_ScanFiles.UseVisualStyleBackColor = true;
@@ -146,10 +139,9 @@
             this.Btn_RemoveAllFiles.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Btn_RemoveAllFiles.Enabled = false;
             this.Btn_RemoveAllFiles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.Btn_RemoveAllFiles.Location = new System.Drawing.Point(354, 1306);
-            this.Btn_RemoveAllFiles.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_RemoveAllFiles.Location = new System.Drawing.Point(236, 836);
             this.Btn_RemoveAllFiles.Name = "Btn_RemoveAllFiles";
-            this.Btn_RemoveAllFiles.Size = new System.Drawing.Size(285, 72);
+            this.Btn_RemoveAllFiles.Size = new System.Drawing.Size(190, 46);
             this.Btn_RemoveAllFiles.TabIndex = 10;
             this.Btn_RemoveAllFiles.Text = "Remove All Files";
             this.Btn_RemoveAllFiles.UseVisualStyleBackColor = true;
@@ -161,12 +153,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtBox_ScanOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.TxtBox_ScanOutput.Location = new System.Drawing.Point(948, 341);
-            this.TxtBox_ScanOutput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBox_ScanOutput.Location = new System.Drawing.Point(632, 218);
             this.TxtBox_ScanOutput.Multiline = true;
             this.TxtBox_ScanOutput.Name = "TxtBox_ScanOutput";
             this.TxtBox_ScanOutput.ReadOnly = true;
-            this.TxtBox_ScanOutput.Size = new System.Drawing.Size(1318, 954);
+            this.TxtBox_ScanOutput.Size = new System.Drawing.Size(880, 612);
             this.TxtBox_ScanOutput.TabIndex = 11;
             this.TxtBox_ScanOutput.WordWrap = false;
             // 
@@ -175,10 +166,9 @@
             this.Btn_ExportFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_ExportFile.Enabled = false;
             this.Btn_ExportFile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.Btn_ExportFile.Location = new System.Drawing.Point(1983, 1306);
-            this.Btn_ExportFile.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_ExportFile.Location = new System.Drawing.Point(1322, 836);
             this.Btn_ExportFile.Name = "Btn_ExportFile";
-            this.Btn_ExportFile.Size = new System.Drawing.Size(285, 72);
+            this.Btn_ExportFile.Size = new System.Drawing.Size(190, 46);
             this.Btn_ExportFile.TabIndex = 12;
             this.Btn_ExportFile.Text = "Export as text file";
             this.Btn_ExportFile.UseVisualStyleBackColor = true;
@@ -187,10 +177,10 @@
             // Pic_ColorMode
             // 
             this.Pic_ColorMode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Pic_ColorMode.Location = new System.Drawing.Point(2148, 19);
-            this.Pic_ColorMode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Pic_ColorMode.InitialImage = null;
+            this.Pic_ColorMode.Location = new System.Drawing.Point(1432, 12);
             this.Pic_ColorMode.Name = "Pic_ColorMode";
-            this.Pic_ColorMode.Size = new System.Drawing.Size(120, 125);
+            this.Pic_ColorMode.Size = new System.Drawing.Size(80, 80);
             this.Pic_ColorMode.TabIndex = 13;
             this.Pic_ColorMode.TabStop = false;
             this.Pic_ColorMode.Click += new System.EventHandler(this.Pic_ColorMode_Click);
@@ -200,8 +190,7 @@
             this.Label_Version.AutoSize = true;
             this.Label_Version.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Version.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Label_Version.Location = new System.Drawing.Point(1290, 158);
-            this.Label_Version.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Version.Location = new System.Drawing.Point(860, 101);
             this.Label_Version.Name = "Label_Version";
             this.Label_Version.Size = new System.Drawing.Size(0, 20);
             this.Label_Version.TabIndex = 14;
@@ -210,18 +199,19 @@
             // 
             this.Label_FilesToScan.AutoSize = true;
             this.Label_FilesToScan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Label_FilesToScan.Location = new System.Drawing.Point(51, 307);
+            this.Label_FilesToScan.Location = new System.Drawing.Point(34, 196);
+            this.Label_FilesToScan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label_FilesToScan.Name = "Label_FilesToScan";
-            this.Label_FilesToScan.Size = new System.Drawing.Size(204, 26);
+            this.Label_FilesToScan.Size = new System.Drawing.Size(135, 17);
             this.Label_FilesToScan.TabIndex = 15;
             this.Label_FilesToScan.Text = "Total files to scan: 0";
             // 
             // Source_Checker
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(207)))));
-            this.ClientSize = new System.Drawing.Size(2286, 1415);
+            this.ClientSize = new System.Drawing.Size(1524, 906);
             this.Controls.Add(this.Label_FilesToScan);
             this.Controls.Add(this.Label_Version);
             this.Controls.Add(this.Pic_ColorMode);
@@ -236,8 +226,7 @@
             this.Controls.Add(this.Link_GitHub);
             this.Controls.Add(this.Label_Title);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MinimumSize = new System.Drawing.Size(2304, 1388);
+            this.MinimumSize = new System.Drawing.Size(1542, 905);
             this.Name = "Source_Checker";
             this.Text = "Source Checker";
             this.Load += new System.EventHandler(this.Source_Checker_Load);

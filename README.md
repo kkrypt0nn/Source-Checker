@@ -22,7 +22,7 @@ If you don't trust the `exe` file you can always download the entire repository 
 ## Changelogs
 ### Version 1.0.1:
 #### Edited Features:
-- The default folder path when seleting folder is now the Desktop.
+- The default folder path when selecting folder is now the Desktop.
 ### Version 1.0.0:
 The program is working and ready to be used.
 

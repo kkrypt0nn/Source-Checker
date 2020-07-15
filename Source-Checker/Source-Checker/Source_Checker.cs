@@ -12,7 +12,7 @@ namespace Source_Checker
     {
 
         // Current version of the program
-        string version = "v1.0.1";
+        string version = "v1.1.0";
 
         // Dark & light mode support
         string mode = "light";
