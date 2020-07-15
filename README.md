@@ -3,7 +3,7 @@
 </p>
 
 # Source Checker
-[![Program Version](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/kkrypt0nn/Source-Checker) 
+[![Program Version](https://img.shields.io/badge/release-v1.1.1-green)](https://github.com/kkrypt0nn/Source-Checker) 
 
 Source Checker is a program coded in C# to check if a source code might be infected. You can use this checker for any projects, but it was mainly coded for checking <b>Minecraft Cheating Clients source code</b>.
 
