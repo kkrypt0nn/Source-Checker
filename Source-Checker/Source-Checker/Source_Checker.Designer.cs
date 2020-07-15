@@ -64,7 +64,7 @@
             this.Link_GitHub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.Link_GitHub.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.Link_GitHub.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.Link_GitHub.Location = new System.Drawing.Point(12, 900);
+            this.Link_GitHub.Location = new System.Drawing.Point(12, 885);
             this.Link_GitHub.Name = "Link_GitHub";
             this.Link_GitHub.Size = new System.Drawing.Size(275, 17);
             this.Link_GitHub.TabIndex = 2;

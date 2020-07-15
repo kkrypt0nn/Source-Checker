@@ -7,9 +7,19 @@
 
 Source Checker is a program coded in C# to check if a source code might be infected. You can use this checker for any projects, but it was mainly coded for checking <b>Minecraft Cheating Clients source code</b>.
 
+#### Dark Theme:
+![Dark UI Theme](ui-dark.png?raw=true "Dark UI Theme")
+
+#### Light Theme:
+![Light UI Theme](ui-light.png?raw=true "Light UI Theme")
+
 ***This tool is not 100% accurate, the tool only checks if there are suspicious keywords in a file. Checking the files manually is always better.***
 
 I do not take any responsibilities if you got infected by a malware after checking the files with this tool.
+
+## Authors
+* **[Krypton (@kkrypt0nn)](https://github.com/kkrypt0nn)** - Initial work
+* **[Alexandros (@Nyvil)](https://github.com/kkrypt0nn)** - Made the Java version, see the [repository](https://github.com/Nyvil/SrcChecker)
 
 ## Getting Started
 By following the incoming instructions, you will be able to install this program and use it.
@@ -20,6 +30,9 @@ To install the program, go to the [release page](https://github.com/kkrypt0nn/So
 If you don't trust the `exe` file you can always download the entire repository and build the program on your own.
 
 ## Changelogs
+### Version 1.1.1:
+#### Edited Features:
+- The keywords are no longer lowered (`.ToLower()`)
 ### Version 1.1.0:
 #### Edited Features:
 - The icon of the `exe` file is now customized
@@ -47,8 +60,6 @@ Submit your issues that you encounter while installing and using this program [h
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kkrypt0nn/Source-Checker/tags).
 
-## Authors
-* **Krypton** - *Initial work* - [kkrypt0nn](https://github.com/kkrypt0nn)
 
 ## License
 This project is licensed under the [Apache 2.0](LICENSE.md) License - see the [LICENSE.md](LICENSE.md) file for details.
