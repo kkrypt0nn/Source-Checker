@@ -24,7 +24,7 @@ If you don't trust the `exe` file you can always download the entire repository 
 The program is working and ready to be used.
 
 ## Built With
-* [C Sharp](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+* [C Sharp (C#)](https://en.wikipedia.org/wiki/C_Sharp_programming_language)
 * [WinForms](https://en.wikipedia.org/wiki/Windows_Forms)
 
 ## Bugs
