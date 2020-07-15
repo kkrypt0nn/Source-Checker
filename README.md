@@ -8,10 +8,10 @@
 Source Checker is a program coded in C# to check if a source code might be infected. You can use this checker for any projects, but it was mainly coded for checking <b>Minecraft Cheating Clients source code</b>.
 
 #### Dark Theme:
-![Dark UI Theme](ui-dark.png?raw=true "Dark UI Theme")
+![Dark UI Theme](dark-theme.png?raw=true "Dark UI Theme")
 
 #### Light Theme:
-![Light UI Theme](ui-light.png?raw=true "Light UI Theme")
+![Light UI Theme](light-theme.png?raw=true "Light UI Theme")
 
 ***This tool is not 100% accurate, the tool only checks if there are suspicious keywords in a file. Checking the files manually is always better.***
 
