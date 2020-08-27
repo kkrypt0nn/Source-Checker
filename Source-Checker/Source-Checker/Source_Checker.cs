@@ -12,7 +12,7 @@ namespace Source_Checker
     {
 
         // Current version of the program
-        string version = "v1.1.1";
+        string version = "v1.1.2";
 
         // Dark & light mode support
         string mode = "light";
@@ -135,7 +135,7 @@ namespace Source_Checker
                     {
                         foreach (var keyword in maliciousContent)
                         {
-                            if (match.text.ToLower().Contains(keyword))
+                            if (match.text.Contains(keyword))
                             {
                                 // Add information about the line that could be possibly malicious
                                 TxtBox_ScanOutput.AppendText($"{filePath}:{match.lineNumber} | {match.text.Trim()}");
