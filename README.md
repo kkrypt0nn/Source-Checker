@@ -30,6 +30,9 @@ To install the program, go to the [release page](https://github.com/kkrypt0nn/So
 If you don't trust the `exe` file you can always download the entire repository and build the program on your own.
 
 ## Changelogs
+### Version 1.1.2:
+#### Edited Features:
+- The lines that are being checked are no longer lowered (`.ToLower()`)
 ### Version 1.1.1:
 #### Edited Features:
 - The keywords are no longer lowered (`.ToLower()`)
