@@ -19,7 +19,7 @@ I do not take any responsibilities if you got infected by a malware after checki
 
 ## Authors
 * **[Krypton (@kkrypt0nn)](https://github.com/kkrypt0nn)** - Initial work
-* **[Alexandros (@Nyvil)](https://github.com/kkrypt0nn)** - Made the Java version, see the [repository](https://github.com/Nyvil/SrcChecker)
+* **[Alexandros (@Nyvil)](https://github.com/Nyvil)** - Made the Java version, see the [repository](https://github.com/Nyvil/SrcChecker)
 
 ## Getting Started
 By following the incoming instructions, you will be able to install this program and use it.
